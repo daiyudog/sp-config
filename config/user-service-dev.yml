@@ -18,3 +18,9 @@ spring:
   cloud:
     config:
       override-none: true
+      
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
